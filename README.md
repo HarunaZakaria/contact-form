@@ -6,17 +6,12 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 This is is a project that I am working on in order to polish my front end skills. as a web developer there is the need to have a relevant knowlede in writing plain HTML and CSS and for that reason I choose to do some projects in frontend mentor, so this project is one of the many projects that I will be doing from frontend mentor.
