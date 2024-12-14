@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: hsl(148, 38%, 91%);
+}
+.container {
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.first-name, .last-name, .email, .query{
+    margin-bottom: 5px;
+} 
+.query-select{
+    margin-bottom: 5px;
+    text-align: left;
+    display: flex;
+    border: solid hsl(186, 15%, 59%) 1px;
+    border-radius: 5px;   
+    padding: 0; 
+} 
+.query-select p{
+    opacity: 80%;
+}
+.query-select label, .query-select{
+    padding-left: 5px;
+    margin: 0;
+
+}
+label{
+    opacity: 70%;
+
+    
+}
+input, textarea{
+    border: solid hsl(186, 15%, 59%) 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.consent {
+    display: flex;
+    margin-left: 5px;
+}    
+.btn input{
+    margin-bottom: 20px;
+    width: 40%;
+    background-color: hsl(169, 82%, 27%);
+    border: 0;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+}
+.btn input:hover{
+    cursor: pointer;
+}
+.attribution{
+    font-size: 16px;
+    text-align: center;
+} 
+.container h1{
+    padding: 30px 0 0 5px;
+    width: 200px;
+    font-size: 32px;
+    color: hsl(187, 24%, 22%);
+} 
+/*this is the desktop device section */
+@media(min-width:376px) {
+    .container {
+        width: 400px;
+    }
+    .first-second-names{
+        display: flex;
+        gap: 5px;
+        margin: 10px 0;
+    }
+    .first-name,  .last-name, .email , .query, .message{
+        text-align: left;
+    }
+    .last-name{
+        margin-right: 30px;
+    }
+    .email input{
+        width: 98%;
+    }
+    .query{
+        margin: 15px 0;
+    }
+    .both-query {
+        display: flex;
+        gap: 5px;
+        margin: 10px 0;
+    }
+    .query-select{
+        width: 200px;
+        padding: 0;
+    }
+    .query-select p{
+        margin: 5px;
+    }
+    textarea{
+        width: 350px;
+    }
+    .consent {
+        margin: 10px 0;
+    }
+    .consent p{
+        padding-left: 10px;
+    }
+    .btn input{
+        width: 350px;
+        padding: 10px 0;
+    }
+    .attribution p{
+        margin-top: 100px;
+    }
+    form{
+        width: 90%;
+        margin: 0 auto;
+    } 
+} 
+                      
+/*this is the mobile device section */
+@media(max-width:375px){
+    .container {
+        width: 200px;
+       margin: 20px auto;
+    } 
+    .container h1{
+        padding: 10px 0 0 5px;
+        width: 100px;
+        font-size: 16px;
+    }
+    .first-name label{
+        margin-right: 110px;
+        padding: 3px;
+    }
+    .last-name label{
+        margin-right: 110px;
+    }
+    .email label{
+        margin-right: 95px;
+    }
+    .query label{
+        margin-right: 110px;
+    }
+    label{
+        font-size: 12px;
+        opacity: 70%;   
+    }
+    .query-select{
+        margin: 10px 10px;
+        padding: 3px;
+    }
+    .query-select p{
+        font-size: 12px;
+        opacity: 80%;
+    }
+    .query-select p,  .query-select label{
+        margin: 0;
+        padding: 3px;
+    }
+    .message label {
+        margin-right: 130px;
+        padding-bottom: 30px;
+    }
+    textarea {
+        width: 180px;
+        height: 100px;
+    }
+    .consent {
+        display: flex;
+        margin-left: 5px;
+    }
+    .consent p {
+        padding-left: 8px;
+        width: 150px;
+        font-size: 12px;
+        margin-top: 20px;
+        opacity: 50%;
+    }
+    .btn input{
+        margin-bottom: 20px;
+        width: 180px;
+        background-color: hsl(169, 82%, 27%);
+        border: 0;
+        padding: 5px;
+        color: white;
+        border-radius: 3px;
+    }
+    .attribution{
+        width: 150px;
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+    }  
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1>Contact Us</h1>
+    </div>
+    <form action="#">
+      <div class="first-second-names">
+        <div class="first-name">
+          <label for="firstName">First Name *</label><br>
+          <input type="text" required>
+        </div>
+        <div class="last-name">
+          <label for="lastName">Last Name *</label><br>
+          <input type="text" required>
+        </div>
+      </div>
+      <div class="email">
+        <label for="email">  Email Address *</label><br>
+        <input type="email" required>
+      </div>
+      <div class="query">
+        <label for="query"> Query Type *</label><br>
+        <div class="both-query">
+          <div class="query-select">
+            <input type="radio" required><p>General Enquiry</p>
+          </div>
+          <div class="query-select">
+            <input type="radio" required><p>Support Request</p>
+          </div>
+        </div>
+        </div>
+      <div class="message">
+        <label for="message">Message *</label><br>
+        <textarea name="message" rows="5" cols="10" required></textarea>
+      </div>
+      <div class="consent">
+        <input type="checkbox">
+        <p>I consent to being contacted by the team
+        </p>
+      </div>
+      <div class="btn">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <div class="attribution">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Harunzy</a>.
+    </p>
+  </div>
+</body>
+</html>
