@@ -78,9 +78,9 @@ input, textarea{
     .first-name,  .last-name, .email , .query, .message{
         text-align: left;
     }
-    .last-name{
+   /*  .last-name{
         margin-right: 30px;
-    }
+    } */
     .email input{
         width: 98%;
     }
