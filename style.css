@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  --white-color: hsl(0, 0%, 100%);
+  --grey-mediu-color: hsl(186, 15%, 59%);
+  --grey-dark-color: hsl(187, 24%, 22%);
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
