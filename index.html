@@ -25,13 +25,15 @@
           <h1>Contact Us</h1>
         </div>
         <form action="#">
-          <div>
-            <label for="firstname">First Name *</label> <br />
-            <input type="text" name="firstname" required />
-          </div>
-          <div>
-            <label for="lastname">Last Name *</label> <br />
-            <input type="text" name="lastname" required />
+          <div class="form-group">
+            <div>
+              <label for="firstname">First Name *</label> <br />
+              <input type="text" name="firstname" required />
+            </div>
+            <div>
+              <label for="lastname">Last Name *</label> <br />
+              <input type="text" name="lastname" required />
+            </div>
           </div>
           <div>
             <label for="email">Email Address *</label> <br />
@@ -39,11 +41,18 @@
           </div>
           <div>
             <label for="enquery">Query Type *</label><br />
-            <input type="radio" name="general" id="general" required />
-            <label>General Enquiry</label>
-            <input type="radio" name="support" id="support" required />
-            <label>Support Request</label>
+            <div class="form-group">
+              <div>
+                <input type="radio" name="general" id="general" required />
+                <label>General Enquiry</label>
+              </div>
+              <div>
+                <input type="radio" name="support" id="support" required />
+                <label>Support Request</label>
+              </div>
+            </div>
           </div>
+
           <div>
             <label for="message">Message *</label> <br />
             <textarea name="message" id="message" required></textarea>
