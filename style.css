@@ -15,8 +15,14 @@ body {
   background-color: var(--grey-lighter-color);
 }
 .container {
-  width: 50%;
-  background-color: var(--red-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  margin: 7% auto;
+}
+.form {
+  background-color: var(--white-color);
+  width: 40%;
+  padding: 25px;
+  border-radius: 10px;
 }
