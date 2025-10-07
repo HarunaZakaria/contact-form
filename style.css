@@ -52,3 +52,8 @@ input[type='email'] {
 .checkbox.support {
   margin-left: 5px;
 }
+textarea {
+  width: 100%;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
