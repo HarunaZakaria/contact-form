@@ -40,3 +40,15 @@ input[type='email'] {
   padding: 7px 10px;
   border-radius: 5px;
 }
+.checkbox {
+  border: 2px solid black;
+  width: 50%;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+.checkbox.general {
+  margin-right: 5px;
+}
+.checkbox.support {
+  margin-left: 5px;
+}
