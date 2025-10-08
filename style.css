@@ -8,6 +8,7 @@
   --grey-lighter-color: hsl(148, 38%, 91%);
   --grey-mediu-color: hsl(186, 15%, 59%);
   --grey-dark-color: hsl(187, 24%, 22%);
+  --green-color: hsl(169, 82%, 27%);
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 }
@@ -29,18 +30,22 @@ body {
 .form-group {
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
 input[type='text'] {
   width: 15rem;
   padding: 7px 10px;
   border-radius: 5px;
+  margin-top: 5px;
 }
 input[type='email'] {
   width: 100%;
   padding: 7px 10px;
   border-radius: 5px;
+  margin-top: 5px;
 }
 .checkbox {
+  margin-top: 5px;
   border: 2px solid black;
   width: 50%;
   padding: 7px 10px;
@@ -56,4 +61,22 @@ textarea {
   width: 100%;
   padding: 20px 10px;
   border-radius: 5px;
+  margin-top: 5px;
+}
+input[type='submit'] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: var(--green-color);
+  border: 0;
+  color: var(--white-color);
+  margin-top: 25px;
+}
+.email {
+  margin-top: 50px;
+  color: brown;
+}
+input[type='checkbox'] {
+  margin-top: 20px;
+  accent-color: red;
 }
