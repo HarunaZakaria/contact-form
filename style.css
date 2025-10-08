@@ -71,10 +71,6 @@ input[type='email']:focus {
   border-radius: 5px;
   margin-bottom: 20px;
 }
-input[type='radio']:checked + label {
-  background-color: red;
-  border: 2px solid green;
-}
 .checkbox.general {
   margin-right: 5px;
 }
@@ -100,6 +96,9 @@ input[type='submit'] {
   border: 0;
   color: var(--white-color);
   margin-top: 25px;
+}
+input[type='submit']:hover {
+  background-color: var(--grey-dark-color);
 }
 input[type='radio'] {
   accent-color: var(--green-color);
