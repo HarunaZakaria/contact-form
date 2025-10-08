@@ -23,7 +23,6 @@ body {
 }
 .form {
   background-color: var(--white-color);
-  width: 40%;
   padding: 25px;
   border-radius: 10px;
 }
@@ -32,13 +31,13 @@ body {
   font-size: 12px;
   margin-bottom: 20px;
 }
-.form-group {
+.form-groups {
   display: flex;
-  justify-content: space-between;
   margin-top: 5px;
+  gap: 10px;
 }
 input[type='text'] {
-  width: 15rem;
+  width: 100%;
   padding: 7px 10px;
   border-radius: 5px;
   margin-top: 5px;
@@ -60,23 +59,18 @@ input[type='email'] {
 }
 input[type='email']:focus {
   border: var(--grey-mediu-color) 2px solid;
-  cursor: pointer;
+  cursor: 0pointer;
   outline: none;
 }
 .checkbox {
   margin-top: 5px;
   border: var(--grey-lighter-color) 2px solid;
-  width: 50%;
+  width: 100%;
   padding: 7px 10px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
-.checkbox.general {
-  margin-right: 5px;
-}
-.checkbox.support {
-  margin-left: 5px;
-}
+
 textarea {
   width: 100%;
   padding: 20px 10px;
@@ -111,4 +105,30 @@ input[type='checkbox'] {
 label {
   font-size: 16px;
   font-weight: 400;
+}
+.attribution {
+  padding: 20px;
+  text-align: center;
+}
+@media (max-width: 1440px) {
+  /* .form-groups {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
+  } */
+}
+
+@media (max-width: 375px) {
+  .form {
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  input[type='text'] {
+    width: 100%;
+  }
+  .form-groups {
+    display: block;
+  }
 }
