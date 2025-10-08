@@ -9,126 +9,115 @@
   --grey-mediu-color: hsl(186, 15%, 59%);
   --grey-dark-color: hsl(187, 24%, 22%);
   --green-color: hsl(169, 82%, 27%);
-  --font-weight-regular: 400;
-  --font-weight-bold: 700;
-}
-body {
-  background-color: var(--grey-lighter-color);
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.form {
-  background-color: var(--white-color);
-  padding: 25px;
-  border-radius: 10px;
-}
-.form-header {
-  font-weight: 700;
-  font-size: 12px;
-  margin-bottom: 20px;
-}
-.form-groups {
-  display: flex;
-  margin-top: 5px;
-  gap: 10px;
-}
-input[type='text'] {
-  width: 100%;
-  padding: 7px 10px;
-  border-radius: 5px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  border: var(--grey-lighter-color) 2px solid;
-}
-input[type='text']:focus {
-  border: var(--grey-mediu-color) 2px solid;
-  cursor: pointer;
-  outline: none;
-}
-input[type='email'] {
-  width: 100%;
-  padding: 7px 10px;
-  border-radius: 5px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  border: var(--grey-lighter-color) 2px solid;
-}
-input[type='email']:focus {
-  border: var(--grey-mediu-color) 2px solid;
-  cursor: 0pointer;
-  outline: none;
-}
-.checkbox {
-  margin-top: 5px;
-  border: var(--grey-lighter-color) 2px solid;
-  width: 100%;
-  padding: 7px 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-textarea {
-  width: 100%;
-  padding: 20px 10px;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-textarea:focus {
-  border: var(--grey-mediu-color) 2px solid;
-  cursor: pointer;
-  outline: none;
-}
-input[type='submit'] {
-  width: 100%;
-  padding: 12px;
-  border-radius: 5px;
-  background-color: var(--green-color);
-  border: 0;
-  color: var(--white-color);
-  margin-top: 25px;
-}
-input[type='submit']:hover {
-  background-color: var(--grey-dark-color);
-}
-input[type='radio'] {
-  accent-color: var(--green-color);
-}
-
-input[type='checkbox'] {
-  margin-top: 20px;
-  accent-color: var(--green-color);
-}
-label {
-  font-size: 16px;
-  font-weight: 400;
-}
-.attribution {
-  padding: 20px;
-  text-align: center;
-}
-@media (max-width: 1440px) {
-  /* .form-groups {
+  body {
+    background-color: var(--grey-lighter-color);
+  }
+  .container {
     display: flex;
-    margin-top: 5px;
-    gap: 10px;
-    flex-wrap: wrap;
-  } */
-}
-
-@media (max-width: 375px) {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   .form {
-    width: 100%;
+    background-color: var(--white-color);
     padding: 25px;
     border-radius: 10px;
   }
-  input[type='text'] {
-    width: 100%;
+  .form-header {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 20px;
   }
   .form-groups {
-    display: block;
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+  }
+  input[type='text'] {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: var(--grey-lighter-color) 2px solid;
+  }
+  input[type='text']:focus {
+    border: var(--grey-mediu-color) 2px solid;
+    cursor: pointer;
+    outline: none;
+  }
+  input[type='email'] {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: var(--grey-lighter-color) 2px solid;
+  }
+  input[type='email']:focus {
+    border: var(--grey-mediu-color) 2px solid;
+    cursor: 0pointer;
+    outline: none;
+  }
+  .checkbox {
+    margin-top: 5px;
+    border: var(--grey-lighter-color) 2px solid;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  textarea:focus {
+    border: var(--grey-mediu-color) 2px solid;
+    cursor: pointer;
+    outline: none;
+  }
+  input[type='submit'] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: var(--green-color);
+    border: 0;
+    color: var(--white-color);
+    margin-top: 25px;
+  }
+  input[type='submit']:hover {
+    background-color: var(--grey-dark-color);
+  }
+  input[type='radio'] {
+    accent-color: var(--green-color);
+  }
+
+  input[type='checkbox'] {
+    margin-top: 20px;
+    accent-color: var(--green-color);
+  }
+  label {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .attribution {
+    padding: 20px;
+    text-align: center;
+  }
+  @media (max-width: 375px) {
+    .form {
+      width: 100%;
+      padding: 25px;
+      border-radius: 10px;
+    }
+    input[type='text'] {
+      width: 100%;
+    }
+    .form-groups {
+      display: block;
+    }
   }
 }
