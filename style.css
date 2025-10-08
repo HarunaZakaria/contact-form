@@ -27,6 +27,11 @@ body {
   padding: 25px;
   border-radius: 10px;
 }
+.form-header {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
 .form-group {
   display: flex;
   justify-content: space-between;
@@ -40,6 +45,11 @@ input[type='text'] {
   margin-bottom: 20px;
   border: var(--grey-lighter-color) 2px solid;
 }
+input[type='text']:focus {
+  border: var(--grey-mediu-color) 2px solid;
+  cursor: pointer;
+  outline: none;
+}
 input[type='email'] {
   width: 100%;
   padding: 7px 10px;
@@ -48,14 +58,22 @@ input[type='email'] {
   margin-bottom: 20px;
   border: var(--grey-lighter-color) 2px solid;
 }
+input[type='email']:focus {
+  border: var(--grey-mediu-color) 2px solid;
+  cursor: pointer;
+  outline: none;
+}
 .checkbox {
   margin-top: 5px;
   border: var(--grey-lighter-color) 2px solid;
-
   width: 50%;
   padding: 7px 10px;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+input[type='radio']:checked + label {
+  background-color: red;
+  border: 2px solid green;
 }
 .checkbox.general {
   margin-right: 5px;
@@ -69,6 +87,11 @@ textarea {
   border-radius: 5px;
   margin-top: 5px;
 }
+textarea:focus {
+  border: var(--grey-mediu-color) 2px solid;
+  cursor: pointer;
+  outline: none;
+}
 input[type='submit'] {
   width: 100%;
   padding: 12px;
@@ -77,6 +100,9 @@ input[type='submit'] {
   border: 0;
   color: var(--white-color);
   margin-top: 25px;
+}
+input[type='radio'] {
+  accent-color: var(--green-color);
 }
 
 input[type='checkbox'] {
