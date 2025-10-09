@@ -92,4 +92,4 @@ In my future project, I'm going to focus more on DOM and build more interactive 
 
 - Website - https://harunzy.netlify.app/
 - Frontend Mentor - https://www.frontendmentor.io/profile/HarunaZakaria
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - https://www.linkedin.com/in/zakaria-haruna-b897241b6/
